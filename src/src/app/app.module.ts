@@ -11,7 +11,6 @@ import { AddProductComponent } from './add-product/add-product.component';
 import { DisplayProductComponent } from './display-product/display-product.component';
 import { AddStudentComponent } from './add-student/add-student.component';
 import { DisplayStudentComponent } from './display-student/display-student.component';
-// import { FilterPipe } from './filter.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +22,6 @@ import { DisplayStudentComponent } from './display-student/display-student.compo
     DisplayProductComponent,
     AddStudentComponent,
     DisplayStudentComponent,
- 
   
     
 

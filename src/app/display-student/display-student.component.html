@@ -1,0 +1,8 @@
+display-student.component.html
+<div *ngFor="let student of students">
+    <p>ID: {{ student.id }}</p>
+    <p>Name: {{ student.Studentname }}</p>
+    <p [ngStyle]="{color: student.feebalance > 0 ? 'red' : 'green'}">Fee Balance: {{ student.feebalance | currency }}</p>
+
+  </div>
+  

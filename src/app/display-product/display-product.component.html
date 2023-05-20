@@ -1,0 +1,14 @@
+<div class = "app" *ngIf="products.length"></div>
+<div class ="item" *ngFor="let product of products">
+<img src={{product.image}}  alt="${this.product.porductName}">
+<div class ="product-item_content">
+<h2>{{product.title}}</h2>
+<h3>{{product.price|currency}}</h3>
+<p>{{product.description}}</p>
+<button>Update</button>
+<button>Delete</button>
+</div>
+</div>
+
+
+
