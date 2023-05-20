@@ -8,13 +8,16 @@ import { Student } from 'src/interfaces/indexx';
 })
 export class DisplayStudentComponent implements OnInit {
   balancedstudents =true
-balancedstudent =false
+// balancedstudent =false
 ngOnInit(): void {
   this.students = this.studentService.getStudents()
 }
 students: Student [] = [];
 constructor(private studentService:StudentsService){
 
+}
+toggleBalancedStudents() {
+  this.balancedstudents = !this.balancedstudents;
 }
 
 
